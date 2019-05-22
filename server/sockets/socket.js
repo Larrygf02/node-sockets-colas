@@ -27,5 +27,9 @@ io.on('connection', (client) => {
         callback(atenderTicket);
         
 
+        client.broadcast.emit('ultimos4', {
+            ultimos4: ticketControl.getUltimos4()
+        });
+
     })
 });
