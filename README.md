@@ -7,3 +7,5 @@ Recuerden que deben de reconstruir los módulos de node con el comando
 ```
 npm install
 ```
+
+Aplicacion de cola de tickets con sockets
